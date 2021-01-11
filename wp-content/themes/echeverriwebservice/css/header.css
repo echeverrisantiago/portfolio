@@ -1,0 +1,37 @@
+  .menu-item{
+    color: #fff;
+    transition: all .3s ease;
+  }
+
+  #masthead-secondary {
+    z-index: 2;
+    width: 100%;
+  }
+
+  #masthead {
+    z-index: 232323 !important;
+  }
+
+  .menu-item:hover{
+    color: var(--third-color);
+    }
+
+  .site-header{
+    display: flex;
+position: absolute;
+top: 0;
+left: 0;
+  }
+
+  header#masthead{
+    background: var(--menu-color);
+    z-index: 2;
+    margin-top: -150px;
+  }
+
+  .logo-cont img{
+    width: 150px;
+    margin-left: 4vw;
+    min-width: 80px;
+    margin-right: 10vw;
+  }

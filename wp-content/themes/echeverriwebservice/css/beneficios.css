@@ -1,0 +1,99 @@
+#beneficios .h2{
+    font-size: calc(1vw + 1.5rem);
+    color: var(--four-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+}
+
+
+.seguridadIcon:before{
+    background: url('../img/Elementos/20.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  }
+
+  .seguridadIconActive:before{
+    background: url('../img/Elementos/25.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  }
+
+  .responsiveIcon:before{
+    background: url('../img/Elementos/17.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  }
+
+  .visibilidadIcon:before{
+    background: url('../img/Elementos/16.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  }
+
+  .administrableIcon:before{
+    background: url('../img/Elementos/18.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  }
+
+  .optimizacionIcon:before{
+    background: url('../img/Elementos/19.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+  }
+
+
+.beneficios {
+    width: 50%;
+    display: flex;
+    flex: 400px;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #ddd;
+  }
+  .beneficios-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  .beneficio-detail {
+    width: 50%;
+    flex: 400px;
+    color: white;
+    background: var(--four-color);
+    padding: 2rem;
+  }
+  .beneficio-item {
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-beneficio {
+    font-weight: normal;
+  }
+  .beneIcons:before {
+    left: 0;
+  }
+  .beneficio-detail p {
+    font-size: 1.2rem;
+  }
+  .title-beneficio.title-detail {
+    font-size: calc(1vw + 1.5rem);
+  }
+
+  .item-active .title-beneficio{
+    font-weight: bold;
+    color: var(--menu-color);
+  }
+
+  .itemBeneActive:before{
+    filter: invert(33%) sepia(96%) saturate(1213%) hue-rotate(164deg) brightness(90%) contrast(98%);
+  }

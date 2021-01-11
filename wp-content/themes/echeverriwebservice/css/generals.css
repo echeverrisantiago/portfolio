@@ -1,0 +1,100 @@
+:root{
+	--second-color: #031927e3;
+    --third-color: #02c39a;
+    --menu-color: #03131edb;
+    --four-color: #0183a5;
+}
+
+.fixed{
+    margin-top: 0px!important;
+}
+
+.iconP{
+    position: relative;
+height: 5rem;
+width: 6rem;
+display: block;
+}
+
+.iconP:before{
+    content: "";
+    height: 5rem;
+    width: 6rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: -20px;
+  }
+
+  .menu-background{
+    position: absolute;
+    z-index: -1;
+    top: -13px;
+    right: -13px;
+    width: 75%;
+  }
+
+.line-caryn{
+    position: absolute;
+width: 1px;
+background: #fff;
+height: 4rem;
+bottom: 5rem;
+left: 27%;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+
+.oculto{
+    display: none!important;
+}
+
+.line-caryncont{
+    height: 8rem;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+
+.line-caryncont .line-caryn{
+    position: relative;
+margin: 0;
+top: 0;
+background: var(--four-color);
+left: 0;
+}
+
+#social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    align-items: flex-end;
+    z-index: 23;
+    justify-content: center;
+    height: 100%;
+}
+
+#social img{
+    width: 5rem;
+}
+
+.line-caryncont span .bol-caryn{
+    background: var(--four-color);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.bol-caryn{
+    height: .75rem;
+    width: .75rem;
+    display: block;
+    background: #fff;
+    border-radius: 1rem;
+    position: absolute;
+    right: -0.35rem;
+}
