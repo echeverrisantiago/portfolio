@@ -10,5 +10,4 @@ Template Name: Portafolio
 <?php echo do_shortcode('[servicios]'); ?>
 <?php echo do_shortcode('[portfolio]'); ?>
 <?php echo do_shortcode('[beneficios]'); ?>
-hola mundo :D
 <?php echo get_footer(); ?>
